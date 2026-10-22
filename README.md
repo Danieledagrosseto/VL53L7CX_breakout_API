@@ -2,6 +2,18 @@
 
 This folder replaces `platform.h` and `platform.c` in the ST VL53L7CX ULD when the host communicates through the programmable-address VL53L7CX bridge breakout.
 
+## Breakout board
+
+### Front
+
+![Front of the VL53L7CX breakout board](./pictures/front.jpg)
+
+### Back
+
+![Back of the VL53L7CX breakout board](./pictures/back.jpg)
+
+[View the VL53L7CX breakout schematic (PDF)](./pictures/Schematic.pdf)
+
 ## Files
 
 * `platform.h`: ST ULD-compatible API, bridge limits, and timing configuration.
