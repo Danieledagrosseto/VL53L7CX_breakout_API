@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="220" viewBox="0 0 260 220">
+  <style>
+    .title { font: 700 14px sans-serif; fill: #111; }
+    .pintext { font: 700 12px monospace; fill: #111; }
+    .body { fill: #f5f5f5; stroke: #333; stroke-width: 2; }
+    .pin { fill: #ffffff; stroke: #333; stroke-width: 1.5; }
+  </style>
+
+  <text x="130" y="20" text-anchor="middle" class="title">JST Connector Pinout (Top View)</text>
+
+  <!-- Connector body -->
+  <rect x="70" y="35" width="120" height="160" rx="8" class="body"/>
+
+  <!-- Pins -->
+  <rect x="90" y="55"  width="80" height="24" rx="4" class="pin"/>
+  <rect x="90" y="87"  width="80" height="24" rx="4" class="pin"/>
+  <rect x="90" y="119" width="80" height="24" rx="4" class="pin"/>
+  <rect x="90" y="151" width="80" height="24" rx="4" class="pin"/>
+
+  <!-- Pin labels -->
+  <text x="130" y="71"  text-anchor="middle" class="pintext">1  VDD</text>
+  <text x="130" y="103" text-anchor="middle" class="pintext">2  SDA</text>
+  <text x="130" y="135" text-anchor="middle" class="pintext">3  SCL</text>
+  <text x="130" y="167" text-anchor="middle" class="pintext">4  GND</text>
+</svg>

@@ -12,6 +12,10 @@ This folder replaces `platform.h` and `platform.c` in the ST VL53L7CX ULD when t
 
 ![Back of the VL53L7CX breakout board](./pictures/back.jpg)
 
+### JST connector pinout
+
+![JST connector pinout, top view: 1 VDD, 2 SDA, 3 SCL, 4 GND](./pictures/docs_jst_pinout_top_view_Version2.svg)
+
 [View the VL53L7CX breakout schematic (PDF)](./pictures/Schematic.pdf)
 
 ## Files
